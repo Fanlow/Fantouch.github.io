@@ -44,9 +44,9 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<meta name=\"google-site-verification\" content=\"5EIN8H2qZhky1PpbKCllLOcrWYGLzcyacN2N8kwN8WU\" />",
         "footer_custom": "",
-        "html_before": "<meta name=\"google-site-verification\" content=\"5EIN8H2qZhky1PpbKCllLOcrWYGLzcyacN2N8kwN8WU\" />"
+        "html_before": ""
       },
       "components": [
         {
