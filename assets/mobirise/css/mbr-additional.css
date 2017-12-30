@@ -541,8 +541,15 @@ a:hover {
   background: #5aac98;
   border-color: #5aac98;
 }
+#features16-2 P {
+  font-size: 48px;
+}
+#features16-2 .card-text {
+  font-size: 18px;
+}
 #content4-b P {
   text-align: center;
+  font-size: 18px;
 }
 #content3-8 .mbr-section-title,
 #content3-8 .mbr-section-subtitle {
@@ -567,6 +574,9 @@ a:hover {
 #features21-c .mbr-table-cell {
   vertical-align: middle;
 }
+#features21-c .heading-title {
+  font-size: 48px;
+}
 #features5-u .mbr-cards-col:hover .card-overlay {
   opacity: 1;
 }
@@ -584,6 +594,9 @@ a:hover {
 #features5-u .heading-title {
   text-align: center;
 }
+#features5-u .heading-title B {
+  font-size: 48px;
+}
 #pricing-table2-14 .plan-wrap.default .plan-title {
   background: #6ca4cf;
 }
@@ -592,6 +605,9 @@ a:hover {
 }
 #pricing-table2-14 .secondType.plan-title {
   font-size: 30px;
+}
+#pricing-table2-14 .heading-title {
+  font-size: 48px;
 }
 #toggle1-j B {
   font-size: 48px;
@@ -604,10 +620,4 @@ a:hover {
 }
 #footer4-y P {
   font-size: 11px;
-}
-#pricing-table2-17 .plan-wrap.default .plan-title {
-  background: #6ca4cf;
-}
-#pricing-table2-17 .plan-wrap.favorite .plan-title {
-  background: #62cab1;
 }
