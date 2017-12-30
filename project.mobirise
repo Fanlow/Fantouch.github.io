@@ -27,7 +27,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 54,
+    "uniqCompNum": 55,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/fantouch-logo3-128x34-1.png",
     "noImageResize": "",
@@ -111,7 +111,7 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": 0.85
           },
-          "title": "How<b> </b>It Works",
+          "title": "How It Works",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "media1": {
@@ -124,7 +124,7 @@
               "family": "MobiriseIcons"
             }
           },
-          "number1": "<p>Step 1</p>",
+          "number1": "<p>Step1</p>",
           "title1": "What is Mobirise",
           "subtitle1": "Awesome",
           "text1": "Receive a tiny wireless device called Royaltie Gem.",
@@ -139,7 +139,7 @@
               "family": "MobiriseIcons"
             }
           },
-          "number2": "<p>Step 2</p>",
+          "number2": "<p>Step2</p>",
           "title2": "What is Mobirise",
           "subtitle2": "Awesome",
           "text2": "Decide the promotional message you want to broadcast.",
@@ -154,7 +154,7 @@
               "family": "MobiriseIcons"
             }
           },
-          "number3": "<p>Step 3</p>",
+          "number3": "<p>Step3</p>",
           "title3": "What is Mobirise",
           "subtitle3": "Awesome",
           "text3": "We setup your promotional message in our system.",
@@ -169,7 +169,7 @@
               "family": "MobiriseIcons"
             }
           },
-          "number4": "<p>Step 4</p>",
+          "number4": "<p>Step4</p>",
           "title4": "What is Mobirise",
           "subtitle4": "Awesome",
           "text4": "The wireless device sends your message to every nearby Android smartphone.",
@@ -178,17 +178,11 @@
             "Theme"
           ],
           "_name": "features16",
-          "_anchor": "features16-2",
+          "_anchor": "features16-1i",
           "_styles": {
             ".mbr-iconfont": {
               "background": "@primaryColor",
               "border-color": "@primaryColor"
-            },
-            "P": {
-              "font-size": "60px"
-            },
-            ".card-text": {
-              "font-size": "18px"
             }
           }
         },
