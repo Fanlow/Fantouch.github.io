@@ -522,6 +522,13 @@ a:hover {
 .hamburger-icon:after {
   background-color: #5aac98;
 }
+#header5-1 .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
+#header5-1 .mbr-table-cell {
+  vertical-align: middle;
+}
 #header5-1 .mbr-section-title,
 #header5-1 .mbr-section-subtitle {
   margin-bottom: 1rem;
@@ -614,4 +621,13 @@ a:hover {
 }
 #footer4-y P {
   font-size: 11px;
+}
+#footer4-1l p {
+  color: #000;
+}
+#footer4-1l P {
+  font-size: 11px;
+}
+#form2-1m .heading {
+  background: #5aac98;
 }

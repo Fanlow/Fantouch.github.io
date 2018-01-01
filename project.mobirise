@@ -27,7 +27,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 55,
+    "uniqCompNum": 60,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/fantouch-logo3-128x34-1.png",
     "noImageResize": "",
@@ -77,11 +77,17 @@
           ],
           "_name": "header5",
           "_anchor": "header5-1",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header5\" data-rv-view=\"5\" style=\"background: linear-gradient(to right top, rgb(8, 74, 110), rgb(36, 163, 131)) rgb(8, 74, 110);\"> \n\n <meta name=\"google-site-verification\" content=\"5EIN8H2qZhky1PpbKCllLOcrWYGLzcyacN2N8kwN8WU\">   \n        \n    <div class=\"mbr-table-cell\">\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-10 text-xs-center col-md-offset-1\">\n\n                    <h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content\" code-editable-id=\"82\">Imagine If Marketing<div>Was Effortless. Now It Can Be With FanTouch!</div></h1>\n                    <p class=\"mbr-section-subtitle sub-2 heading-text mbr-editable-content\" code-editable-id=\"83\">Get beacon proximity marketing technology working for your small business and <strong>FanTouch </strong>will<strong>&nbsp;</strong>manage the entire process for you!&nbsp;</p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"index.html#features16-2\" code-editable-id=\"84\">Learn More</a></div>\n                </div>\n            </div>\n        </div>\n    </div>    \n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header5\" data-rv-view=\"5\" style=\"background: linear-gradient(to right top, rgb(8, 74, 110), rgb(36, 163, 131)) rgb(8, 74, 110);\"> \n\n <meta name=\"google-site-verification\" content=\"5EIN8H2qZhky1PpbKCllLOcrWYGLzcyacN2N8kwN8WU\">   \n        \n    <div class=\"mbr-table-cell\">\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-10 text-xs-center col-md-offset-1\">\n\n                    <h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content\" code-editable-id=\"19\">Imagine If Marketing<div>Was Effortless. Now It Can Be With FanTouch!</div></h1>\n                    <p class=\"mbr-section-subtitle sub-2 heading-text mbr-editable-content\" code-editable-id=\"20\">Get beacon proximity marketing technology working for your small business and <strong>FanTouch </strong>will<strong>&nbsp;</strong>manage the entire process for you!&nbsp;</p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"index.html#features16-2\" code-editable-id=\"21\">Learn More</a></div>\n                </div>\n            </div>\n        </div>\n    </div>    \n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".mbr-section-title, .mbr-section-subtitle {\n  margin-bottom: 1rem;\n  color: #ffffff;\n}\n.mbr-iconfont {\n  color: undefined;\n  border-color: undefined;\n}\n.mbr-table-cell {\n  vertical-align: middle;\n}\n.heading-title {\n  font-size: 72px;\n}\n",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          }
         },
         {
           "_params": {
@@ -127,7 +133,7 @@
           "number1": "<p>Step1</p>",
           "title1": "What is Mobirise",
           "subtitle1": "Awesome",
-          "text1": "Receive a tiny wireless device called Royaltie Gem.",
+          "text1": "Place your order to &nbsp;receive your beacon device.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -172,7 +178,7 @@
           "number4": "<p>Step4</p>",
           "title4": "What is Mobirise",
           "subtitle4": "Awesome",
-          "text4": "The wireless device sends your message to every nearby Android smartphone.",
+          "text4": "The beacon sends your message to every nearby Android.&nbsp;",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
@@ -361,7 +367,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "text": "FanTouch is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -448,7 +454,7 @@
           },
           "title3": "<b>Feel Secure With Our Guarantee</b>",
           "subtitle3": "Awesome",
-          "text3": "Every Royaltie device is water-resistant and comes with a lifetime guarantee - if it stops working, we'll replace it free of charge.",
+          "text3": "Every beacon is water-resistant and comes with a lifetime guarantee - if it stops working, we'll replace it free of charge.",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
@@ -544,7 +550,7 @@
               "newWindow": false
             }
           },
-          "title1": "Receive a notification <br>on their device. &nbsp;",
+          "title1": "Receive a notification . &nbsp;",
           "subtitle1": "Awesome",
           "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -722,12 +728,12 @@
           },
           "title": "FanTouch FAQs",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-j\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>What is a FanTouch?</a>",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-j\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>What is a FanTouch?</a>",
           "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-j\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">What is a beacon?</a>",
           "title3": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-j\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Can I move the beacon?&nbsp;</a>",
           "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFourtoggle1-j\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Will people need an app or need to opt-in to receive notifications?&nbsp;</a>",
           "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFivetoggle1-j\" aria-expanded=\"true\" aria-controls=\"collapseFive\">How long do the beacons last?&nbsp;</a>",
-          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSixtoggle1-j\" aria-expanded=\"true\" aria-controls=\"collapseSix\">What if I lose my beacon?&nbsp;</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSixtoggle1-j\" aria-expanded=\"false\" aria-controls=\"collapseSix\">What if I lose my beacon?&nbsp;</a>",
           "text1": "<p>FanTouch is a division of Fanlow LLC specializing in digital marketing solutions for small business owners. FanTouch offers beacon technology management accompanied with dynamic sale funnels designed to drive traffic to your website, social media page and more.&nbsp;</p>",
           "text2": "<p>Beacons are small devices that use Bluetooth 4.0 technology to send messages (push notification) to any smartphone, without any dropouts. Your beacon range can go up to 100 yards and they operate by proximity and may be fixed or mobile.</p>",
           "text3": "Yes! You have the option to carry the beacon (gem) with you at all times (recommended) or simply leave it in high traffic areas to maximize your marketing efforts.&nbsp;",
@@ -754,7 +760,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page1.html#form2-z\" data-toolbar=\"-mbrBtnMove\">Order Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page1.html#custom-html-1e\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page1.html#form2-z\" data-toolbar=\"-mbrBtnMove\">Order Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page1.html#custom-html-1e\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Update</a>",
           "_tags": [
             "Theme"
           ],
@@ -790,7 +796,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "text": "FanTouch is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -812,6 +818,109 @@
           "_JSplaceholders": [
             "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/73628960884169\"></script>"
           ]
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Update Request",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            },
+            "P": {
+              "font-size": "11px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "FanTouch is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-1l"
+        },
+        {
+          "_params": {
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showCheckbox": false,
+            "formBg": "#5aac98",
+            "formHeader": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Hello From FanTouch!&nbsp;",
+          "text": "Ready to begin a new promotion? Leave us your informaton and promotional message and we will have your beacon updated within the next 24 to 48 hours or sooner.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "header": "Please provide as much information regarding your promotion as possible.",
+          "form": {
+            "action": "fanlowteam@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form! We will contact you only if we have questions. "
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Promotion & Link"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send message</a>",
+          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-1m",
+          "_styles": {
+            ".heading": {
+              "background": "#5aac98"
+            }
+          }
         }
       ]
     }
