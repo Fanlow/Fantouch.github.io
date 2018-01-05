@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -816,7 +816,7 @@
           "_anchor": "custom-html-1g",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/73628960884169\"></script>"
+            "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/80043625684154\"></script>"
           ]
         }
       ]
