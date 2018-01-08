@@ -610,6 +610,9 @@ a:hover {
 #pricing-table2-14 .heading-title {
   font-size: 48px;
 }
+#pricing-table2-14 .heading-text {
+  font-size: 15px;
+}
 #toggle1-j B {
   font-size: 48px;
 }
@@ -630,4 +633,17 @@ a:hover {
 }
 #form2-1m .heading {
   background: #5aac98;
+}
+#footer4-1o p {
+  color: #000;
+}
+#footer4-1o P {
+  font-size: 11px;
+}
+#form2-1p .heading {
+  background: #5aac98;
+}
+#form2-1p .heading-title {
+  text-align: center;
+  font-size: 30px;
 }

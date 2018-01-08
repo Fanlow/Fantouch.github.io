@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -27,7 +27,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 60,
+    "uniqCompNum": 62,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/fantouch-logo3-128x34-1.png",
     "noImageResize": "",
@@ -620,6 +620,9 @@
             },
             ".heading-title": {
               "font-size": "48px"
+            },
+            ".heading-text": {
+              "font-size": "15px"
             }
           },
           "_params": {
@@ -649,7 +652,7 @@
             "overlayOpacity": 0.5
           },
           "title": "FanTouch Service Pricing",
-          "subtitle": "We  manage the entire backend process giving you the time to focus on other key componets of your business.",
+          "subtitle": "We  manage the entire backend process giving you the time to focus on other key componets of your business. *Limited time offer. Click for sample.",
           "title1": "Start",
           "title2": "Business<br>",
           "title3": "Premium",
@@ -670,7 +673,7 @@
           "text22": "1 Beacon",
           "text23": "2 Notification Updates",
           "text24": "Digital Business Card",
-          "text25": "Landing Page Not Included",
+          "text25": "<a href=\"http://fanlow.com/ftsample/\">*FREE WEBSITE</a>",
           "text26": "Reporting&nbsp;",
           "text27": "Loipsa. consectetur.",
           "text28": "Lorensectetur, omnis.",
@@ -680,7 +683,7 @@
           "text32": "2 Beacons",
           "text33": "6 Notification Updates",
           "text34": "Digital Business Card",
-          "text35": "Landing Page Included",
+          "text35": "<a href=\"http://fanlow.com/ftsample/\">*FREE WEBSITE</a>",
           "text36": "Reporting&nbsp;",
           "text37": "Loipsa. consectetur.",
           "text38": "Lorensectetur, omnis.",
@@ -690,7 +693,7 @@
           "text42": "3 Beacons",
           "text43": "Unlimited Notification Updates",
           "text44": "Digital Business Card",
-          "text45": "Landing Page Included",
+          "text45": "<a href=\"http://fanlow.com/ftsample/\">*FREE WEBSITE</a>",
           "text46": "Reporting",
           "text47": "Loipsa. consectetur.",
           "text48": "Lorensectetur, omnis.",
@@ -760,7 +763,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page1.html#form2-z\" data-toolbar=\"-mbrBtnMove\">Order Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page1.html#custom-html-1e\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Update</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page1.html#form2-z\" data-toolbar=\"-mbrBtnMove\">Order Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page3.html#form2-1p\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Update</a>",
           "_tags": [
             "Theme"
           ],
@@ -919,6 +922,113 @@
           "_styles": {
             ".heading": {
               "background": "#5aac98"
+            }
+          }
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "Contact Us",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            },
+            "P": {
+              "font-size": "11px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "FanTouch is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-1o"
+        },
+        {
+          "_params": {
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showCheckbox": false,
+            "formBg": "#5aac98",
+            "formHeader": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Contact Us&nbsp;",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "header": "Please fill out the form and a FanTouch rep will contact you soon.&nbsp;",
+          "form": {
+            "action": "fanlowteam@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send message</a>",
+          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-1p",
+          "_styles": {
+            ".heading": {
+              "background": "#5aac98"
+            },
+            ".heading-title": {
+              "text-align": "center",
+              "font-size": "30px"
             }
           }
         }
