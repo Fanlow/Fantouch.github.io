@@ -27,7 +27,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 62,
+    "uniqCompNum": 65,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/fantouch-logo3-128x34-1.png",
     "noImageResize": "",
@@ -77,7 +77,7 @@
           ],
           "_name": "header5",
           "_anchor": "header5-1",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header5\" data-rv-view=\"5\" style=\"background: linear-gradient(to right top, rgb(8, 74, 110), rgb(36, 163, 131)) rgb(8, 74, 110);\"> \n\n <meta name=\"google-site-verification\" content=\"5EIN8H2qZhky1PpbKCllLOcrWYGLzcyacN2N8kwN8WU\">   \n        \n    <div class=\"mbr-table-cell\">\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-10 text-xs-center col-md-offset-1\">\n\n                    <h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content\" code-editable-id=\"15\">Imagine If Marketing<div>Was Effortless. Now It Can Be With FanTouch!</div></h1>\n                    <p class=\"mbr-section-subtitle sub-2 heading-text mbr-editable-content\" code-editable-id=\"16\">Get beacon proximity marketing technology working for your small business and <strong>FanTouch </strong>will<strong>&nbsp;</strong>manage the entire process for you!&nbsp;</p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"index.html#features16-1i\" code-editable-id=\"17\">Learn More</a></div>\n                </div>\n            </div>\n        </div>\n    </div>    \n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header5\" data-rv-view=\"5\" style=\"background: linear-gradient(to right top, rgb(8, 74, 110), rgb(36, 163, 131)) rgb(8, 74, 110);\"> \n\n <meta name=\"google-site-verification\" content=\"5EIN8H2qZhky1PpbKCllLOcrWYGLzcyacN2N8kwN8WU\">   \n        \n    <div class=\"mbr-table-cell\">\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-10 text-xs-center col-md-offset-1\">\n\n                    <h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content\" code-editable-id=\"20\">Imagine If Marketing<div>Was Effortless. Now It Can Be With FanTouch!</div></h1>\n                    <p class=\"mbr-section-subtitle sub-2 heading-text mbr-editable-content\" code-editable-id=\"21\">Get beacon proximity marketing technology working for your small business and <strong>FanTouch </strong>will<strong>&nbsp;</strong>manage the entire process for you!&nbsp;</p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"index.html#features16-1i\" code-editable-id=\"22\">Learn More</a></div>\n                </div>\n            </div>\n        </div>\n    </div>    \n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".mbr-section-title, .mbr-section-subtitle {\n  margin-bottom: 1rem;\n  color: #ffffff;\n}\n.mbr-iconfont {\n  color: undefined;\n  border-color: undefined;\n}\n.mbr-table-cell {\n  vertical-align: middle;\n}\n.heading-title {\n  font-size: 72px;\n}\n",
@@ -367,7 +367,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "text": "<a href=\"page4.html\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -799,7 +799,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "text": "<a href=\"page4.html\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -851,7 +851,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "text": "<a href=\"page4.html\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -954,7 +954,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "text": "<a href=\"page4.html\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -1029,6 +1029,88 @@
             ".heading-title": {
               "text-align": "center",
               "font-size": "30px"
+            }
+          }
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "Thank You",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            },
+            "P": {
+              "font-size": "11px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<a href=\"page4.html\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-1q"
+        },
+        {
+          "_params": {
+            "autoplay": false,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#5b5f6b",
+            "overlayOpacity": 0.95,
+            "slides": [
+              {
+                "active": true,
+                "showButtons": true,
+                "showImage": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Thank You",
+                "image": "@PROJECT_PATH@/assets/images/responsive-web-design-1500x1000.png",
+                "contentAlign": "center",
+                "text": "Your request has been submitted. Please allow up to 4 weeks for your website to be competed. If you should have any questions, please contact us at info@fantouch.biz or 469-270-6172.&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Back to Home&nbsp;</a> "
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-1s",
+          "_styles": {
+            ".btn": {
+              "font-size": "14px"
             }
           }
         }
