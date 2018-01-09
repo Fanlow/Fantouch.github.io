@@ -27,7 +27,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 65,
+    "uniqCompNum": 66,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/fantouch-logo3-128x34-1.png",
     "noImageResize": "",
@@ -50,6 +50,19 @@
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "font-size": "72px"
+            }
+          },
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -69,25 +82,14 @@
             "overlayColor": "#000000",
             "overlayOpacity": 0.5
           },
-          "title": "Imagine If Marketing<div>Was Effortless. Now It Can Be With FanTouch!</div>",
-          "text": "Get beacon proximity marketing technology working for your small business and <b>FanTouch </b>will<b>&nbsp;</b>manage the entire process for you!&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#features16-2\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "title": "Imagine If Marketing\n<div>Was Effortless. Now It Can Be With FanTouch!</div>",
+          "text": "Get beacon proximity marketing technology working for your small business and FanTouch will manage the entire process for you!<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.youtube.com/watch?v=_iIfOiWRCHA&amp;feature=youtu.be\" data-toolbar=\"-mbrBtnMove\">Watch Video</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#features16-1i\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header5",
-          "_anchor": "header5-1",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header5\" data-rv-view=\"5\" style=\"background: linear-gradient(to right top, rgb(8, 74, 110), rgb(36, 163, 131)) rgb(8, 74, 110);\"> \n\n <meta name=\"google-site-verification\" content=\"5EIN8H2qZhky1PpbKCllLOcrWYGLzcyacN2N8kwN8WU\">   \n        \n    <div class=\"mbr-table-cell\">\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-10 text-xs-center col-md-offset-1\">\n\n                    <h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content\" code-editable-id=\"43\">Imagine If Marketing<div>Was Effortless. Now It Can Be With FanTouch!</div></h1>\n                    <p class=\"mbr-section-subtitle sub-2 heading-text mbr-editable-content\" code-editable-id=\"44\">Get beacon proximity marketing technology working for your small business and <strong>FanTouch </strong>will<strong>&nbsp;</strong>manage the entire process for you!&nbsp;</p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"https://www.youtube.com/watch?v=_iIfOiWRCHA&amp;feature=youtu.be\" code-editable-id=\"45\">Watch Video</a> <a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"index.html#features16-1i\" code-editable-id=\"46\">Learn More</a></div>\n                </div>\n            </div>\n        </div>\n    </div>    \n\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ".mbr-section-title, .mbr-section-subtitle {\n  margin-bottom: 1rem;\n  color: #ffffff;\n}\n.mbr-iconfont {\n  color: undefined;\n  border-color: undefined;\n}\n.mbr-table-cell {\n  vertical-align: middle;\n}\n.heading-title {\n  font-size: 72px;\n}\n",
-          "_customTemplate": true,
-          "_styles": {
-            ".mbr-iconfont": {},
-            ".mbr-table-cell": {
-              "vertical-align": "middle"
-            }
-          }
+          "_anchor": "header5-1t"
         },
         {
           "_params": {
