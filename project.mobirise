@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 22,
+    "uniqCompNum": 23,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -57,9 +57,6 @@
             ".mbr-table-cell": {
               "vertical-align": "middle"
             },
-            ".heading-title DIV": {
-              "font-size": "60px"
-            },
             ".heading-title": {
               "font-size": "60px"
             }
@@ -83,14 +80,14 @@
             "overlayColor": "#000000",
             "overlayOpacity": 0.5
           },
-          "title": "Imagine If Marketing\n<div>Was Effortless. Now It Can </div><div>Be With FanTouch!</div>",
-          "text": "CGet beacon proximity marketing technology working for your small business and FanTouch will manage the entire process for you!\n<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.youtube.com/watch?v=_iIfOiWRCHA\" data-toolbar=\"-mbrBtnMove\">Watch Video</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#features16-1\" data-toolbar=\"-mbrBtnMove\">Learn More&nbsp;</a>",
+          "title": "Imagine If Marketing Was Effortless. Now It Can <br>Be With FanTouch",
+          "text": "Get beacon proximity marketing technology working for your small business and FanTouch will manage the entire process for you! .",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.youtube.com/watch?v=_iIfOiWRCHA\" data-toolbar=\"-mbrBtnMove\">Watch Video</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#features16-1\" data-toolbar=\"-mbrBtnMove\">Learn More &nbsp;</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header5",
-          "_anchor": "header5-0"
+          "_anchor": "header5-m"
         },
         {
           "_params": {
