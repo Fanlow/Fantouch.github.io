@@ -26,7 +26,7 @@
     "sitemapSwitcherAuto": "on",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
-    "favicon": "@PROJECT_PATH@/assets/images/unnamed-128x128.png",
+    "favicon": "@PROJECT_PATH@/assets/images/fantouch-logo4-128x34.png",
     "noImageResize": "",
     "google-analytics": "",
     "cookiesAlert": "",
