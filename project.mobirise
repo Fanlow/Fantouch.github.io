@@ -8,35 +8,33 @@
       "styling": {
         "primaryColor": "#5aac98",
         "secondaryColor": "#A25DAE",
-        "successColor": "#1f8068",
+        "successColor": "#1E7C3A",
         "infoColor": "#74a3c7",
-        "warningColor": "#94a5d0",
-        "dangerColor": "#5aac98",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
         "titleFont": "Oxygen",
         "subtitleFont": "Libre Franklin",
         "textFont": "Libre Franklin",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
-      "additionalSetColors": [
-        "#ffffff",
-        "#e5e5e0",
-        "#f0f1f2",
-        "#4a4a4a"
-      ]
+      "additionalSetColors": []
     },
-    "versionFirst": "4.5.2",
-    "uniqCompNum": 66,
-    "versionPublish": "4.5.2",
-    "favicon": "@PROJECT_PATH@/assets/images/fantouch-logo3-128x34-1.png",
+    "path": "@PROJECT_PATH@",
+    "siteUrl": "https://fantouch.biz/",
+    "sitemapSwitcherAuto": "on",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "favicon": "@PROJECT_PATH@/assets/images/unnamed-128x128.png",
     "noImageResize": "",
+    "google-analytics": "UA-112547538-1",
     "cookiesAlert": "",
-    "google-analytics": "",
-    "siteUrl": "undefined",
-    "mcShopcart": {
-      "email": "fanlowteam@gmail.com"
-    }
+    "sitemapSwitcher": "on",
+    "versionFirst": "4.5.4",
+    "uniqCompNum": 22,
+    "versionPublish": "4.5.4",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -44,7 +42,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "<meta name=\"google-site-verification\" content=\"5EIN8H2qZhky1PpbKCllLOcrWYGLzcyacN2N8kwN8WU\" />",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
@@ -59,8 +57,11 @@
             ".mbr-table-cell": {
               "vertical-align": "middle"
             },
+            ".heading-title DIV": {
+              "font-size": "60px"
+            },
             ".heading-title": {
-              "font-size": "72px"
+              "font-size": "60px"
             }
           },
           "_params": {
@@ -82,20 +83,20 @@
             "overlayColor": "#000000",
             "overlayOpacity": 0.5
           },
-          "title": "Imagine If Marketing\n<div>Was Effortless. Now It Can Be With FanTouch!</div>",
-          "text": "Get beacon proximity marketing technology working for your small business and FanTouch will manage the entire process for you!<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.youtube.com/watch?v=_iIfOiWRCHA&amp;feature=youtu.be\" data-toolbar=\"-mbrBtnMove\">Watch Video</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#features16-1i\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "title": "Imagine If Marketing\n<div>Was Effortless. Now It Can </div><div>Be With FanTouch!</div>",
+          "text": "CGet beacon proximity marketing technology working for your small business and FanTouch will manage the entire process for you!\n<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.youtube.com/watch?v=_iIfOiWRCHA\" data-toolbar=\"-mbrBtnMove\">Watch Video</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#features16-1\" data-toolbar=\"-mbrBtnMove\">Learn More&nbsp;</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header5",
-          "_anchor": "header5-1t"
+          "_anchor": "header5-0"
         },
         {
           "_params": {
             "paddingTop": 1,
             "paddingBottom": "0",
-            "showHeading": true,
+            "showHeading": false,
             "showTitle": true,
             "showText": false,
             "showButtons": false,
@@ -119,7 +120,7 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": 0.85
           },
-          "title": "How It Works",
+          "title": "Always on your terms",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "media1": {
@@ -132,10 +133,10 @@
               "family": "MobiriseIcons"
             }
           },
-          "number1": "<p>Step1</p>",
+          "number1": "<p>Step 1</p>",
           "title1": "What is Mobirise",
           "subtitle1": "Awesome",
-          "text1": "Place your order to &nbsp;receive your beacon device.",
+          "text1": "Place your order to  receive your beacon device.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -147,7 +148,7 @@
               "family": "MobiriseIcons"
             }
           },
-          "number2": "<p>Step2</p>",
+          "number2": "<p>Step 2</p>",
           "title2": "What is Mobirise",
           "subtitle2": "Awesome",
           "text2": "Decide the promotional message you want to broadcast.",
@@ -162,7 +163,7 @@
               "family": "MobiriseIcons"
             }
           },
-          "number3": "<p>Step3</p>",
+          "number3": "<p>Step 3</p>",
           "title3": "What is Mobirise",
           "subtitle3": "Awesome",
           "text3": "We setup your promotional message in our system.",
@@ -177,16 +178,16 @@
               "family": "MobiriseIcons"
             }
           },
-          "number4": "<p>Step4</p>",
+          "number4": "<p>Step 4</p>",
           "title4": "What is Mobirise",
           "subtitle4": "Awesome",
-          "text4": "The beacon sends your message to every nearby Android.&nbsp;",
+          "text4": "The beacon sends your message to every nearby Android. ",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "features16",
-          "_anchor": "features16-1i",
+          "_anchor": "features16-1",
           "_styles": {
             ".mbr-iconfont": {
               "background": "@primaryColor",
@@ -197,21 +198,15 @@
         {
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgColor": "#fffffd"
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
           },
-          "text": "<p>Android represents 60% of the North American smartphone market<b>.</b> To receive messages, the phone just needs Bluetooth turned on.</p>",
+          "text": "<p>Android represents 60% of the North American smartphone market. To receive messages, the phone just needs Bluetooth turned on.</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content4",
-          "_anchor": "content4-b",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-size": "18px"
-            }
-          }
+          "_anchor": "content4-2"
         },
         {
           "_styles": {
@@ -224,17 +219,17 @@
           },
           "_params": {
             "showMeta": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgColor": "#fffffd"
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
           },
-          "title": "Easily<b> </b>Promote Your",
+          "title": "Easily Promote Your",
           "meta": "By <b>John Smith</b> posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "content3",
-          "_anchor": "content3-8"
+          "_anchor": "content3-b"
         },
         {
           "_params": {
@@ -243,13 +238,13 @@
             "showText": false,
             "showButtons": false,
             "tabs": "4",
-            "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/_background/tabs1.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fffffd",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
@@ -264,23 +259,23 @@
           "title4": "Tab heading 4",
           "title5": "Tab heading 5",
           "title6": "Tab heading 6",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-7\" aria-expanded=\"false\">Products</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-7\" aria-expanded=\"false\">Services</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-7\" aria-expanded=\"true\">Solutions</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-7\" aria-expanded=\"false\">Events</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-7\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-7\">Add funds</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-l\" aria-expanded=\"false\">Products</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-l\" aria-expanded=\"false\">Services</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-l\" aria-expanded=\"false\">Solutions</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-l\" aria-expanded=\"true\">Product</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-l\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-l\">Add funds</a></li>",
           "text1": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)!",
           "text2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
           "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
           "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
           "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
           "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
-          "list1": "<li>Health &amp; Beauty &nbsp;</li><br><li>Fashion &amp; Accessories&nbsp;</li><br><li>Books and EPs</li><br><li>Specialty Items&nbsp;</li>",
+          "list1": "<li>Health &amp; Beauty&nbsp;</li><br><li>Fashion &amp; Accessorie</li><br><li>Books and EP</li><br><li>Specialty Items</li>",
           "list2": "<li>Legal and Accounting&nbsp;</li><br><li>Marketing and Advertising</li><br><li>Real Estate and Consulting&nbsp;</li><br><li>Insurance and Finance</li>",
-          "list3": "<li>Social Media (YouTube/Facebook)</li><br><li>Mastermind System&nbsp;</li><br><li>Online Training/Coaching</li><br><li>Software Solution</li>",
-          "list4": "<li>Open House&nbsp;</li><br><li>Networking Event</li><br><li>Religious Event</li><br><li>Special Promotion and more...</li>",
+          "list3": "<li>Social Media (YouTube/Facebook)</li><br><li>Mastermind System<br></li><br><li>\n</li><li></li><li>\nOnline Training/Coaching</li><br><li>\n</li><li></li><li>\nSoftware Solution.</li>",
+          "list4": "<li>Open House&nbsp;</li><br><li>\n</li><li></li><li>\nNetworking Event</li><br><li>\n</li><li></li><li>\nReligious Event</li><br><li>\n</li><li></li><li>\nSpecial Promotion and more...</li><br>",
           "list5": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
           "list6": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Order Now</a>",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Order Now</a>",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Order Now</a>",
-          "button4": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Order Now</a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
           "button5": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
           "button6": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
           "media1": {
@@ -341,40 +336,12 @@
             "Theme"
           ],
           "_name": "tabs2",
-          "_anchor": "tabs2-7",
+          "_anchor": "tabs2-l",
           "_styles": {
             "UL": {
               "text-align": "left"
             }
           }
-        },
-        {
-          "_styles": {
-            "p": {
-              "color": "#000"
-            },
-            "P": {
-              "font-size": "11px"
-            }
-          },
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "<a href=\"#bottom\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer4",
-          "_anchor": "footer4-a"
         },
         {
           "_params": {
@@ -411,22 +378,22 @@
               "family": "MobiriseIcons"
             }
           },
-          "title": "Now Is The Time<b> </b>To Grow Your Business",
+          "title": "Now Is The Time To Grow Your Business",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "mobirise",
-              "link": "https://mobirise.com",
-              "color": "#222",
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "wifi",
+              "family": "MobiriseIcons",
+              "active": true,
+              "color": "#222"
             }
           },
-          "title1": "<b>Maximize Your Marketing Efforts&nbsp;</b>",
+          "title1": "Maximize Your Marketing Efforts&nbsp;",
           "subtitle1": "Awesome",
-          "text1": "Automatically promote your business on every nearby Android phone within a 100 yard radius. ",
+          "text1": "Automatically promote your business on every nearby Android phone within a 100 yard radius.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -435,13 +402,12 @@
               "name": "update",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
               "color": "#222"
             }
           },
-          "title2": "<b>Eliminate The Marketing Hassle&nbsp;</b>",
+          "title2": "Eliminate The Marketing Hassle&nbsp;",
           "subtitle2": "Awesome",
-          "text2": "Avoid the need to constantly post and hand out business cards. Get unlimited messaging that will drive traffic directly to your website, blog, social media page and more. &nbsp;",
+          "text2": "Avoid the need to constantly post and hand out business cards. Get unlimited messaging that will drive traffic directly to your website, blog, social media page and more.  ",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
@@ -450,11 +416,10 @@
               "name": "like",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
               "color": "#222"
             }
           },
-          "title3": "<b>Feel Secure With Our Guarantee</b>",
+          "title3": "Feel Secure With Our Guarantee",
           "subtitle3": "Awesome",
           "text3": "Every beacon is water-resistant and comes with a lifetime guarantee - if it stops working, we'll replace it free of charge.",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -476,7 +441,7 @@
             "Theme"
           ],
           "_name": "features21",
-          "_anchor": "features21-c",
+          "_anchor": "features21-5",
           "_styles": {
             ".card .mbr-iconfont": {
               "background": "@primaryColor",
@@ -491,28 +456,6 @@
           }
         },
         {
-          "_styles": {
-            ".mbr-cards-col:hover .card-overlay": {
-              "opacity": "1"
-            },
-            ".mbr-cards-col:hover .card-title": {
-              "color": "#fff"
-            },
-            ".mbr-cards-col:hover .mbr-iconfont": {
-              "border": "2px solid #fff",
-              "color": "#fff"
-            },
-            ".mbr-iconfont": {
-              "color": "@primaryColor",
-              "border-color": "@primaryColor"
-            },
-            ".heading-title": {
-              "text-align": "center"
-            },
-            ".heading-title B": {
-              "font-size": "48px"
-            }
-          },
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
@@ -520,8 +463,6 @@
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "containerColor1": "#5aac98",
-            "containerColor2": "#8accb8",
             "columns": 3,
             "iconsBgColor": "@primaryColor",
             "bgImageRadio": false,
@@ -538,21 +479,19 @@
             "overlayOpacity": 0.95
           },
           "title": "We Keep It Simple. Your Prospects Will:",
-          "text": "You prospects will:&nbsp;",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont",
               "linkInNewWindow": false,
-              "name": "mobirise",
+              "name": "touch",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "index.html#features5-u",
-              "size": 48,
-              "newWindow": false
+              "size": 48
             }
           },
-          "title1": "Receive a notification . &nbsp;",
+          "title1": "Receive a notification.&nbsp;",
           "subtitle1": "Awesome",
           "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -563,10 +502,7 @@
               "name": "touch-swipe",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "index.html#features5-u",
-              "size": 48,
-              "newWindow": false,
-              "color": ""
+              "size": 48
             }
           },
           "title2": "Check the notification.",
@@ -580,9 +516,7 @@
               "name": "responsive",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "index.html#features5-u",
-              "size": 48,
-              "newWindow": false
+              "size": 48
             }
           },
           "title3": "Be taken to your URL of choice.&nbsp;",
@@ -606,8 +540,18 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "features5",
-          "_anchor": "features5-u"
+          "_name": "features6",
+          "_anchor": "features6-6",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            },
+            ".heading-title": {
+              "text-align": "center",
+              "font-size": "48px"
+            }
+          }
         },
         {
           "_styles": {
@@ -617,27 +561,21 @@
             ".plan-wrap.favorite .plan-title": {
               "background": "#62cab1"
             },
-            ".secondType.plan-title": {
-              "font-size": "30px"
-            },
             ".heading-title": {
               "font-size": "48px"
-            },
-            ".heading-text": {
-              "font-size": "15px"
             }
           },
           "_params": {
             "showTitle": true,
             "showSubtitle": true,
-            "firstType": "hidden",
-            "secondType": "default",
-            "thirdType": "favorite",
-            "fourthType": "default",
+            "firstType": "default",
+            "secondType": "favorite",
+            "thirdType": "default",
+            "fourthType": "hidden",
             "defaultColor": "#6ca4cf",
             "favoriteColor": "#62cab1",
-            "rows": "6",
-            "paddingTop": "1",
+            "rows": "5",
+            "paddingTop": "0",
             "paddingBottom": "1",
             "showButtons": true,
             "bgImageRadio": false,
@@ -654,70 +592,69 @@
             "overlayOpacity": 0.5
           },
           "title": "FanTouch Service Pricing",
-          "subtitle": "We  manage the entire backend process giving you the time to focus on other key componets of your business. *Limited time offer. Click for sample.",
+          "subtitle": "We manage the entire backend process giving you the time to focus on other key componets of your business. *Limited time offer. Click for sample.",
           "title1": "Start",
-          "title2": "Business<br>",
+          "title2": "Business",
           "title3": "Premium",
           "title4": "Ultimate",
           "currency": "$",
-          "text111": "<span class=\"price\">19</span>",
+          "text111": "49",
           "text112": "<br>per Month",
-          "text12": "8GB Storage",
-          "text13": "4 Users",
-          "text14": "15 GB bandwidth",
-          "text15": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text12": "1 Beacon",
+          "text13": "2 Notification Updates",
+          "text14": "<a href=\"http://fanlow.com/fantouchsamplesite/\">*Free Website&nbsp;</a><br>",
+          "text15": "Reports",
           "text16": "Nesciunt! ipsum dolor.",
           "text17": "Loipsa. consectetur.",
           "text18": "Lorensectetur, omnis.",
           "text19": "Lorem ipsa, nobis.",
-          "text211": "<span class=\"price\">49</span>",
-          "text212": "<br>Per Month",
-          "text22": "1 Beacon",
-          "text23": "2 Notification Updates",
-          "text24": "Digital Business Card",
-          "text25": "<a href=\"http://fanlow.com/ftsample/\">*FREE WEBSITE</a>",
-          "text26": "Reporting&nbsp;",
+          "text211": "98",
+          "text212": "<br>per Month",
+          "text22": "2 Beacons",
+          "text23": "6 Notification Updates",
+          "text24": "<a href=\"http://fanlow.com/fantouchsamplesite/\">*Free Website</a><br> ",
+          "text25": "Reports",
+          "text26": "Nesciunt! ipsum dolor.",
           "text27": "Loipsa. consectetur.",
           "text28": "Lorensectetur, omnis.",
           "text29": "Lorem ipsa, nobis.",
-          "text311": "<span class=\"price\">98</span>",
-          "text312": "<br>Per Month",
-          "text32": "2 Beacons",
-          "text33": "6 Notification Updates",
-          "text34": "Digital Business Card",
-          "text35": "<a href=\"http://fanlow.com/ftsample/\">*FREE WEBSITE</a>",
-          "text36": "Reporting&nbsp;",
+          "text311": "149",
+          "text312": "<br>per Month",
+          "text32": "3 Beacons",
+          "text33": "Unlimited Notification Updates",
+          "text34": "<a href=\"http://fanlow.com/fantouchsamplesite/\">*Free Website</a><br> ",
+          "text35": "Reports",
+          "text36": "Nesciunt! ipsum dolor.",
           "text37": "Loipsa. consectetur.",
           "text38": "Lorensectetur, omnis.",
           "text39": "Lorem ipsa, nobis.",
-          "text411": "<span class=\"price\">149</span>",
-          "text412": "<br>Per Month",
-          "text42": "3 Beacons",
-          "text43": "Unlimited Notification Updates",
-          "text44": "Digital Business Card",
-          "text45": "<a href=\"http://fanlow.com/ftsample/\">*FREE WEBSITE</a>",
-          "text46": "Reporting",
+          "text411": "198",
+          "text412": "<br>per Month",
+          "text42": "5 Beacons",
+          "text43": "Unlimited Updates",
+          "text44": "*Free Website ",
+          "text45": "Reports",
+          "text46": "Nesciunt! ipsum dolor.",
           "text47": "Loipsa. consectetur.",
           "text48": "Lorensectetur, omnis.",
           "text49": "Lorem ipsa, nobis.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary-outline\">Buy now!</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"page1.html#custom-html-1g\" class=\"btn btn-lg btn-black-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"page1.html#custom-html-1g\" class=\"btn btn-lg btn-warning-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"page1.html#custom-html-1g\" class=\"btn btn-lg btn-danger-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn btn-lg btn-primary-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn btn-lg btn-black-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn btn-lg btn-warning-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\">Buy now!</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "pricing-table2",
-          "_anchor": "pricing-table2-14"
+          "_anchor": "pricing-table2-7"
         },
         {
           "_params": {
             "showTitle": true,
-            "showText": false,
-            "tabs": "6",
             "collapseAll": false,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "tabs": "6",
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
             "parallax": false,
@@ -725,35 +662,31 @@
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.9
           },
           "title": "FanTouch FAQs",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-j\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>What is a FanTouch?</a>",
-          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-j\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">What is a beacon?</a>",
-          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-j\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Can I move the beacon?&nbsp;</a>",
-          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFourtoggle1-j\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Will people need an app or need to opt-in to receive notifications?&nbsp;</a>",
-          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFivetoggle1-j\" aria-expanded=\"false\" aria-controls=\"collapseFive\">How long do the beacons last?&nbsp;</a>",
-          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSixtoggle1-j\" aria-expanded=\"true\" aria-controls=\"collapseSix\">What if I lose my beacon?&nbsp;</a>",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseOneaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>What is FanTouch?</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseTwoaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Whabt is a beacon?&nbsp;</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseThreeaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Can I move the beacon?</a>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFouraccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Will people need an app or have to opt-in to receive notifications.?&nbsp;</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFiveaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseFive\">How long does the beacon last?&nbsp;</a>",
+          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseSixaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseSix\">What if I lose my beacon?&nbsp;</a>",
           "text1": "<p>FanTouch is a division of Fanlow LLC specializing in digital marketing solutions for small business owners. FanTouch offers beacon technology management accompanied with dynamic sale funnels designed to drive traffic to your website, social media page and more.&nbsp;</p>",
           "text2": "<p>Beacons are small devices that use Bluetooth 4.0 technology to send messages (push notification) to any smartphone, without any dropouts. Your beacon range can go up to 100 yards and they operate by proximity and may be fixed or mobile.</p>",
-          "text3": "Yes! You have the option to carry the beacon (gem) with you at all times (recommended) or simply leave it in high traffic areas to maximize your marketing efforts.&nbsp;",
+          "text3": "<p>Yes! You have the option to carry the beacon (gem) with you at all times (recommended) or simply leave it in high traffic areas to maximize your marketing efforts.&nbsp;</p>",
           "text4": "<p>No. Beacon notifications are only viewable by Android phones with Bluetooth and location turned on.</p>",
           "text5": "<p>Each beacon has a battery life of 24 months or longer.&nbsp;</p>",
           "text6": "<p>If you lose your beacon, we will be more than happy to replace it for you. Simply contact us, cover the shipping and handling fee along with the setup fee (total $30) and you will be back to business as usual.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "toggle1",
-          "_anchor": "toggle1-j",
+          "_name": "accordion1",
+          "_anchor": "accordion1-8",
           "_styles": {
-            "B": {
-              "font-size": "48px"
-            },
             "H1": {
               "font-size": "48px"
             }
@@ -761,177 +694,50 @@
         },
         {
           "_params": {
-            "paddingTop": 1,
+            "paddingTop": "2",
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page1.html#form2-z\" data-toolbar=\"-mbrBtnMove\">Order Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page3.html#form2-1p\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Update</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Order Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Updates</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "buttons1",
-          "_anchor": "buttons1-o"
+          "_anchor": "buttons1-9"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            },
+            "P": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1sFfCtetPtOnyqui9Qd26IwsR2-tXv1hO\">Terms of Service</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-a"
         }
       ]
     },
     "page1.html": {
       "settings": {
         "title": "Sign Up",
-        "order": 1
-      },
-      "components": [
-        {
-          "_styles": {
-            "p": {
-              "color": "#000"
-            },
-            "P": {
-              "font-size": "11px"
-            }
-          },
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "<a href=\"#bottom\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer4",
-          "_anchor": "footer4-y"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "{JS_CODE_0}",
-          "_customCSS": "",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-1g",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/80043625684154\"></script>"
-          ]
-        }
-      ]
-    },
-    "page2.html": {
-      "settings": {
-        "title": "Update Request",
-        "order": 2
-      },
-      "components": [
-        {
-          "_styles": {
-            "p": {
-              "color": "#000"
-            },
-            "P": {
-              "font-size": "11px"
-            }
-          },
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "<a href=\"#bottom\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer4",
-          "_anchor": "footer4-1l"
-        },
-        {
-          "_params": {
-            "showHeading": true,
-            "showTitle": true,
-            "showText": true,
-            "showCheckbox": false,
-            "formBg": "#5aac98",
-            "formHeader": true,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fffffd",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": true,
-            "overlayColor": "#fffffd",
-            "overlayOpacity": 0.95
-          },
-          "title": "Hello From FanTouch!&nbsp;",
-          "text": "Ready to begin a new promotion? Leave us your informaton and promotional message and we will have your beacon updated within the next 24 to 48 hours or sooner.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Please provide as much information regarding your promotion as possible.",
-          "form": {
-            "action": "fanlowteam@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form! We will contact you only if we have questions. "
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Promotion & Link"
-              }
-            }
-          },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send message</a>",
-          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form2",
-          "_anchor": "form2-1m",
-          "_styles": {
-            ".heading": {
-              "background": "#5aac98"
-            }
-          }
-        }
-      ]
-    },
-    "page3.html": {
-      "settings": {
-        "title": "Contact Us",
         "order": 3
       },
       "components": [
@@ -941,7 +747,7 @@
               "color": "#000"
             },
             "P": {
-              "font-size": "11px"
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -956,12 +762,64 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "<a href=\"#bottom\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1sFfCtetPtOnyqui9Qd26IwsR2-tXv1hO\">Terms of Service</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer4",
-          "_anchor": "footer4-1o"
+          "_anchor": "footer4-e"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-f",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/80043625684154\"></script>"
+          ]
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Contact Us",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            },
+            "P": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1sFfCtetPtOnyqui9Qd26IwsR2-tXv1hO\">Terms of Service</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-g"
         },
         {
           "_params": {
@@ -986,7 +844,7 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": 0.95
           },
-          "title": "Contact Us&nbsp;",
+          "title": "Contact Us!&nbsp;",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "header": "Please fill out the form and a FanTouch rep will contact you soon.&nbsp;",
@@ -1023,23 +881,19 @@
             "Theme"
           ],
           "_name": "form2",
-          "_anchor": "form2-1p",
+          "_anchor": "form2-h",
           "_styles": {
             ".heading": {
               "background": "#5aac98"
-            },
-            ".heading-title": {
-              "text-align": "center",
-              "font-size": "30px"
             }
           }
         }
       ]
     },
-    "page4.html": {
+    "page3.html": {
       "settings": {
-        "title": "Thank You",
-        "order": 4
+        "title": "Updates",
+        "order": 1
       },
       "components": [
         {
@@ -1048,7 +902,7 @@
               "color": "#000"
             },
             "P": {
-              "font-size": "11px"
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -1063,58 +917,90 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "<a href=\"#bottom\">FanTouch </a>is a division of<a href=\"https://fanlow.com/\"> Fanlow LLC</a> Copyright (c) 2018. &nbsp;<a href=\"assets/files/Terms%20of%20Service.pdf\">Terms&nbsp;of Service</a>",
+          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1sFfCtetPtOnyqui9Qd26IwsR2-tXv1hO\">Terms of Service</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer4",
-          "_anchor": "footer4-1q"
+          "_anchor": "footer4-j"
         },
         {
+          "_styles": {
+            ".card": {
+              "background-color": "transparent",
+              "box-shadow": "none",
+              "border": "none"
+            },
+            ".card-img a": {
+              "color": "#616161",
+              "border-color": "#616161",
+              "border-width": "2px",
+              "line-height": "72px"
+            },
+            ".heading": {
+              "background": "#5aac98"
+            }
+          },
           "_params": {
-            "autoplay": false,
-            "timeout": 5,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "showBullets": true,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showCheckbox": false,
+            "formBg": "#5aac98",
+            "formHeader": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
-            "overlayColor": "#5b5f6b",
-            "overlayOpacity": 0.95,
-            "slides": [
-              {
-                "active": true,
-                "showButtons": true,
-                "showImage": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Thank You",
-                "image": "@PROJECT_PATH@/assets/images/responsive-web-design-1500x1000.png",
-                "contentAlign": "center",
-                "text": "Your request has been submitted. Please allow up to 4 weeks for your website to be competed. If you should have any questions, please contact us at info@fantouch.biz or 469-270-6172.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Back to Home&nbsp;</a> "
-              }
-            ]
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
           },
-          "articleLayout": false,
+          "title": "Hello From FanTouch!",
+          "text": "Ready to begin a new promotion? Leave us your informaton and promotional message and we will have your beacon updated within the next 24 to 48 hours or sooner.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
+          "form": {
+            "action": "info@fantouch.biz",
+            "alerts": {
+              "success": "Thanks for filling out form! "
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "40 Character Message & Link"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send message</a>",
+          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "features1",
-          "_anchor": "features1-1s",
-          "_styles": {
-            ".btn": {
-              "font-size": "14px"
-            }
-          }
+          "_name": "form3",
+          "_anchor": "form3-k"
         }
       ]
     }
