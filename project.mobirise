@@ -647,49 +647,10 @@
         },
         {
           "_params": {
-            "showTitle": false,
-            "showSearch": false,
-            "rowСount": "2",
-            "colCount": "2",
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/_background/msg-box1.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.4
-          },
-          "title": "Table",
-          "search": "Search:",
-          "info1": "Showing",
-          "info2": "entries",
-          "info3": "(filtered from",
-          "info4": "total entries)",
-          "table": "<thead><tr><th>Name</th><th>Age</th></tr></thead><tbody><tr><td>Activation Fee</td><td>$25</td></tr><tr><td>Shipping Fee</td><td>$10</td></tr></tbody>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "table1",
-          "_anchor": "table1-p",
-          "_styles": {
-            "TABLE": {
-              "text-align": "center"
-            }
-          }
-        },
-        {
-          "_params": {
             "showTitle": true,
             "collapseAll": false,
             "tabs": "6",
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
