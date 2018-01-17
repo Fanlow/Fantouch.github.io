@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 26,
+    "uniqCompNum": 28,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -571,7 +571,7 @@
             "fourthType": "hidden",
             "defaultColor": "#6ca4cf",
             "favoriteColor": "#62cab1",
-            "rows": "7",
+            "rows": "5",
             "paddingTop": "0",
             "paddingBottom": "0",
             "showButtons": true,
@@ -600,7 +600,7 @@
           "text12": "1 Beacon",
           "text13": "2 Notification Updates",
           "text14": "<a href=\"http://fanlow.com/fantouchsamplesite/\">*Business Website&nbsp;</a><br>",
-          "text15": "Reports",
+          "text15": "Digital Business Card",
           "text16": "$25 Activation Fee",
           "text17": "$10 Shipping Fee",
           "text18": "Lorensectetur, omnis.",
@@ -610,7 +610,7 @@
           "text22": "2 Beacons",
           "text23": "6 Notification Updates",
           "text24": "<a href=\"http://fanlow.com/fantouchsamplesite/\">*Business Website</a><br> ",
-          "text25": "Reports",
+          "text25": "Digital Business Card",
           "text26": "$25 Activation Fee",
           "text27": "$10 Shipping Fee",
           "text28": "Lorensectetur, omnis.",
@@ -620,7 +620,7 @@
           "text32": "3 Beacons",
           "text33": "Unlimited Notification Updates",
           "text34": "<a href=\"http://fanlow.com/fantouchsamplesite/\">*Business Website</a><br> ",
-          "text35": "Reports",
+          "text35": "Digital Business Card",
           "text36": "$25 Activation Fee",
           "text37": "$10 Shipping Fee",
           "text38": "Lorensectetur, omnis.",
@@ -644,6 +644,24 @@
           ],
           "_name": "pricing-table2",
           "_anchor": "pricing-table2-7"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><b>Please note:</b>&nbsp; There is a one time activation and shipping fee of $35. &nbsp;By clicking 'Buy Now' you are agreeing to the FanTouch <a href=\"https://drive.google.com/open?id=1sFfCtetPtOnyqui9Qd26IwsR2-tXv1hO\">Terms of Service</a>.&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-r",
+          "_styles": {
+            "P": {
+              "font-size": "13px"
+            }
+          }
         },
         {
           "_params": {
@@ -695,7 +713,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Order Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Updates</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; Buy Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Updates</a>",
           "_tags": [
             "Theme"
           ],
