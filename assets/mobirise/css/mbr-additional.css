@@ -587,6 +587,12 @@ a:hover {
 #footer4-a P {
   font-size: 12px;
 }
+#custom-html-s {
+  /* Type valid CSS here */
+}
+#custom-html-s .my-image {
+  width: 100%;
+}
 #footer4-e p {
   color: #000;
 }
