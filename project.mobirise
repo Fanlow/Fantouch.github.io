@@ -28,12 +28,12 @@
     "robotsSwitcher": "on",
     "favicon": "@PROJECT_PATH@/assets/images/fantouch-logo4-128x34.png",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "UA-113589339-1",
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
     "uniqCompNum": 29,
-    "versionPublish": "4.5.4",
+    "versionPublish": "4.6.3",
     "screenshot": "screenshot.png"
   },
   "pages": {
