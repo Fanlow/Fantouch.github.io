@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "index.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 40,
+    "uniqCompNum": 41,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png"
   },
@@ -689,7 +689,7 @@
           "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseThreeaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Can I move the beacon?</a>",
           "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFouraccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Will people need an app or have to opt-in to receive notifications.?&nbsp;</a>",
           "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFiveaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseFive\">How long does the beacon last?&nbsp;</a>",
-          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseSixaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseSix\">What if I lose my beacon?&nbsp;</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseSixaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseSix\">What if I lose my beacon?&nbsp;</a>",
           "text1": "<p>FanTouch is a division of Fanlow LLC specializing in digital marketing solutions for small business owners. FanTouch offers beacon technology management accompanied with dynamic sale funnels designed to drive traffic to your website, social media page and more.&nbsp;</p>",
           "text2": "<p>Beacons are small devices that use Bluetooth 4.0 technology to send messages (push notification) to any smartphone, without any dropouts. Your beacon range can go up to 100 yards and they operate by proximity and may be fixed or mobile.</p>",
           "text3": "<p>Yes! You have the option to carry the beacon (gem) with you at all times (recommended) or simply leave it in high traffic areas to maximize your marketing efforts.&nbsp;</p>",
@@ -1458,6 +1458,48 @@
           "_anchor": "features5-11"
         },
         {
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": "3",
+            "colCount": 4,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/msg-box1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "Commission Plan",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>FanTouch Package</th><th>Package CostAge</th><th>Commission&nbsp;</th><th>Commission %</th></tr></thead><tbody><tr><td><b>Starter&nbsp;</b></td><td>$75</td><td>$25</td><td>33%</td></tr><tr><td><b>Business</b>&nbsp;</td><td>$98</td><td>$30</td><td>31%</td></tr><tr><td><b>Premium</b>&nbsp;</td><td>$149</td><td>$50</td><td>34%</td></tr></tbody>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-14",
+          "_styles": {
+            "TABLE": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "font-size": "60px"
+            }
+          }
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "margin-bottom": "1rem",
@@ -1468,14 +1510,14 @@
               "vertical-align": "middle"
             },
             ".heading-title": {
-              "font-size": "46px",
+              "font-size": "60px",
               "color": "#000000"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": true,
+            "showButtons": false,
             "contentAlign": "center",
             "paddingTop": "2",
             "paddingBottom": "0",
@@ -1557,7 +1599,7 @@
             }
           },
           "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Submit</a>",
-          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "checkbox": "I agree to the <a href=\"assets/files/Fanlow Reseller Agreement.pdf\">terms</a>",
           "_tags": [
             "Theme"
           ],

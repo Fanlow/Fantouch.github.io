@@ -675,6 +675,12 @@ a:hover {
   color: #5aac98;
   border-color: #5aac98;
 }
+#table1-14 TABLE {
+  text-align: left;
+}
+#table1-14 .mbr-section-title {
+  font-size: 60px;
+}
 #content5-12 .mbr-section-title,
 #content5-12 .mbr-section-subtitle {
   margin-bottom: 1rem;
@@ -688,7 +694,7 @@ a:hover {
   vertical-align: middle;
 }
 #content5-12 .heading-title {
-  font-size: 46px;
+  font-size: 60px;
   color: #000000;
 }
 #form2-w .heading {
