@@ -1429,8 +1429,9 @@
               "name": "cash",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "",
-              "size": 48
+              "link": "#top",
+              "size": 48,
+              "newWindow": false
             }
           },
           "title3": "&nbsp;Commission Tracker",
