@@ -1484,7 +1484,7 @@
           "info2": "entries",
           "info3": "(filtered from",
           "info4": "total entries)",
-          "table": "<thead><tr><th>FanTouch Package</th><th>Package CostAge</th><th>Commission&nbsp;</th><th>Commission %</th></tr></thead><tbody><tr><td><b>Starter&nbsp;</b></td><td>$75</td><td>$25</td><td>33%</td></tr><tr><td><b>Business</b>&nbsp;</td><td>$98</td><td>$30</td><td>31%</td></tr><tr><td><b>Premium</b>&nbsp;</td><td>$149</td><td>$50</td><td>34%</td></tr></tbody>",
+          "table": "<thead><tr><th>FanTouch Package</th><th>Package Cost</th><th>Commission&nbsp;</th><th>Commission %</th></tr></thead><tbody><tr><td><b>Starter&nbsp;</b></td><td>$75</td><td>$25</td><td>33%</td></tr><tr><td><b>Business</b>&nbsp;</td><td>$98</td><td>$30</td><td>31%</td></tr><tr><td><b>Premium</b>&nbsp;</td><td>$149</td><td>$50</td><td>34%</td></tr></tbody>",
           "_tags": [
             "Theme"
           ],
