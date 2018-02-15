@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "page4.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -741,7 +741,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
+          "text": "<a href=\"page4.html#header5-u\">FanTouch</a> is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -793,7 +793,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
+          "text": "<a href=\"page4.html#header5-u\">FanTouch</a> is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -845,7 +845,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
+          "text": "<a href=\"page4.html#header5-u\">FanTouch</a> is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -948,7 +948,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
+          "text": "<a href=\"page4.html#header5-u\">FanTouch</a> is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -1062,7 +1062,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "FanTouch is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
+          "text": "<a href=\"page4.html#header5-u\">FanTouch</a> is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
           "_tags": [
             "Theme"
           ],
@@ -1429,9 +1429,8 @@
               "name": "cash",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "#top",
-              "size": 48,
-              "newWindow": false
+              "link": "",
+              "size": 48
             }
           },
           "title3": "&nbsp;Commission Tracker",
