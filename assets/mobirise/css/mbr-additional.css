@@ -45,13 +45,6 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Oxygen', sans-serif;
 }
-.btn:not(.btn-social) {
-  border-radius: 30px;
-  padding: 17px 50px;
-}
-.mbr-subscribe .btn {
-  border-radius: 1.6em !important;
-}
 .btn-sm,
 .mbr-section-hero .mbr-section-lead,
 .mbr-cards .card-subtitle,
@@ -632,5 +625,72 @@ a:hover {
   line-height: 72px;
 }
 #form3-k .heading {
+  background: #5aac98;
+}
+#footer4-t p {
+  color: #000;
+}
+#footer4-t P {
+  font-size: 12px;
+}
+#header5-u .mbr-section-title,
+#header5-u .mbr-section-subtitle {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+#header5-u .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
+#header5-u .mbr-table-cell {
+  vertical-align: middle;
+}
+#content3-x .mbr-section-title,
+#content3-x .mbr-section-subtitle {
+  text-align: center;
+}
+#features14-v .mbr-iconfont {
+  color: #5aac98;
+  border-color: #5aac98;
+}
+#content3-z .mbr-section-title,
+#content3-z .mbr-section-subtitle {
+  text-align: center;
+}
+#features6-y .mbr-iconfont {
+  color: #5aac98;
+  border-color: #5aac98;
+}
+#features5-11 .mbr-cards-col:hover .card-overlay {
+  opacity: 1;
+}
+#features5-11 .mbr-cards-col:hover .card-title {
+  color: #fff;
+}
+#features5-11 .mbr-cards-col:hover .mbr-iconfont {
+  border: 2px solid #fff;
+  color: #fff;
+}
+#features5-11 .mbr-iconfont {
+  color: #5aac98;
+  border-color: #5aac98;
+}
+#content5-12 .mbr-section-title,
+#content5-12 .mbr-section-subtitle {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+#content5-12 .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
+#content5-12 .mbr-table-cell {
+  vertical-align: middle;
+}
+#content5-12 .heading-title {
+  font-size: 46px;
+  color: #000000;
+}
+#form2-w .heading {
   background: #5aac98;
 }
