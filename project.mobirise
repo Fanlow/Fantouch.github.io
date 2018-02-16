@@ -1100,7 +1100,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Welcome To FanTouch Reseller Program",
-          "text": "FanTouch Reseller Programs Allows You To Create An Additional Stream Of Income <br>Every Single Month!&nbsp;",
+          "text": "FanTouch Reseller Programs Allows You To Create An <br>Additional Stream Of Income <br>Every Single Month!&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page4.html#content3-x\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
           "_tags": [
             "Theme"
@@ -1187,7 +1187,7 @@
           "number2": "<p>2</p>",
           "title2": "What is Mobirise",
           "subtitle2": "Awesome",
-          "text2": "FanTouch will review your application and contact you (if needed) to learn more &nbsp;your reseller go to market strategy&nbsp;",
+          "text2": "FanTouch will review your application and contact you (if needed) to learn more &nbsp;about your reseller <br>go-to-market strategy.&nbsp;",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
@@ -1202,7 +1202,7 @@
           "number3": "<p>3</p>",
           "title3": "What is Mobirise",
           "subtitle3": "Awesome",
-          "text3": "Upon approval, Fantouch will provide your will reseller training along with marketing material designed to make you successful.",
+          "text3": "Upon approval, Fantouch will provide your reseller training along with marketing material designed to make you successful.",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
@@ -1254,7 +1254,7 @@
         {
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "showHeading": false,
             "showTitle": true,
             "showText": true,
@@ -1418,7 +1418,7 @@
               "size": 48
             }
           },
-          "title2": "Reseller Id",
+          "title2": "Reseller ID",
           "subtitle2": "Awesome",
           "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -1433,7 +1433,7 @@
               "size": 48
             }
           },
-          "title3": "&nbsp;Commission Tracker",
+          "title3": "Commission Tracker",
           "subtitle3": "Awesome",
           "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -1484,7 +1484,7 @@
           "info2": "entries",
           "info3": "(filtered from",
           "info4": "total entries)",
-          "table": "<thead><tr><th>FanTouch Package</th><th>Package Cost</th><th>Commission&nbsp;</th><th>Commission %</th></tr></thead><tbody><tr><td><b>Starter&nbsp;</b></td><td>$75</td><td>$25</td><td>33%</td></tr><tr><td><b>Business</b>&nbsp;</td><td>$98</td><td>$30</td><td>31%</td></tr><tr><td><b>Premium</b>&nbsp;</td><td>$149</td><td>$50</td><td>34%</td></tr></tbody>",
+          "table": "<thead><tr><th>FanTouch Package</th><th>Package Cost</th><th>Monthly Commissions&nbsp;</th><th>Commission %</th></tr></thead><tbody><tr><td><b>Starter&nbsp;</b></td><td>$75</td><td>$25</td><td>33%</td></tr><tr><td><b>Business</b>&nbsp;</td><td>$98</td><td>$30</td><td>31%</td></tr><tr><td><b>Premium</b>&nbsp;</td><td>$149</td><td>$50</td><td>34%</td></tr></tbody>",
           "_tags": [
             "Theme"
           ],
@@ -1512,12 +1512,16 @@
             ".heading-title": {
               "font-size": "60px",
               "color": "#000000"
+            },
+            ".heading-text": {
+              "color": "#000000",
+              "text-align": "left"
             }
           },
           "_params": {
             "showTitle": true,
-            "showText": false,
-            "showButtons": false,
+            "showText": true,
+            "showButtons": true,
             "contentAlign": "center",
             "paddingTop": "2",
             "paddingBottom": "0",
@@ -1535,9 +1539,9 @@
             "overlayColor": "#000000",
             "overlayOpacity": 0.2
           },
-          "title": "Review Reseller Agreement",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"assets/files/Fanlow%20Reseller%20Agreement.pdf\" data-toolbar=\"-mbrBtnMove\">Reseller Agreement</a>",
+          "title": "Reseller Agreement",
+          "text": "Ready to become a FanTouch Reseller? Review the reseller agreement and provide your information below. Be sure to check the box to agree to the reseller terms. Once complete, a FanTouch Team member will contact you to get started! &nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"assets/files/Fanlow%20Reseller%20Agreement.pdf\" data-toolbar=\"-mbrBtnMove\">Review Reseller Agreement</a>",
           "_tags": [
             "Theme"
           ],
@@ -1546,14 +1550,14 @@
         },
         {
           "_params": {
-            "showHeading": false,
-            "showTitle": true,
+            "showHeading": true,
+            "showTitle": false,
             "showText": false,
             "showCheckbox": true,
             "formBg": "#5aac98",
             "formHeader": false,
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
             "parallax": false,
@@ -1567,7 +1571,7 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": 0.95
           },
-          "title": "Send your suggestions",
+          "title": "Acknowledge that you agree to become a FanTouch Reseller by filling out your information below, check the box to agree to the terms.&nbsp;",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",

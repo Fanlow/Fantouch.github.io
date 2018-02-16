@@ -697,6 +697,10 @@ a:hover {
   font-size: 60px;
   color: #000000;
 }
+#content5-12 .heading-text {
+  color: #000000;
+  text-align: left;
+}
 #form2-w .heading {
   background: #5aac98;
 }
