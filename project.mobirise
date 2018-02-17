@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "page5.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -42,7 +42,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<script type=\"text/javascript\" src=\"https://www.affiliatly.com/easy_affiliate.js\"></script>\n<script type=\"text/javascript\">startTracking('AF-1011496');</script>",
         "footer_custom": "",
         "html_before": ""
       },
