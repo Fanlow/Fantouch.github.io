@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "index.html",
+    "currentPage": "ThankYou",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 41,
+    "uniqCompNum": 45,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png"
   },
@@ -1614,6 +1614,82 @@
               "background": "#5aac98"
             }
           }
+        }
+      ]
+    },
+    "ThankYou": {
+      "settings": {
+        "title": "Thank You",
+        "order": 5,
+        "header_custom": "<script type=\"text/javascript\" src=\"https://www.affiliatly.com/easy_affiliate.js\"></script>\n<script type=\"text/javascript\">markPurchase('AF-1011496', order, price);</script>"
+      },
+      "components": [
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            },
+            "P": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<a href=\"page4.html#header5-u\">FanTouch</a> is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-15"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#084a6e",
+            "containerColor2": "#24a383",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.5
+          },
+          "title": "Thank You For Choosing FanTouch!&nbsp;",
+          "text": "Please check your email for your confirmation and further details!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-18"
         }
       ]
     }

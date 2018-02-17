@@ -696,3 +696,21 @@ a:hover {
 #form2-w .heading {
   background: #5aac98;
 }
+#footer4-15 p {
+  color: #000;
+}
+#footer4-15 P {
+  font-size: 12px;
+}
+#header5-18 .mbr-section-title,
+#header5-18 .mbr-section-subtitle {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+#header5-18 .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
+#header5-18 .mbr-table-cell {
+  vertical-align: middle;
+}
