@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "ThankYou",
+    "currentPage": "page5.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -1617,7 +1617,7 @@
         }
       ]
     },
-    "ThankYou": {
+    "page5.html": {
       "settings": {
         "title": "Thank You",
         "order": 5,
