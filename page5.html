@@ -18,8 +18,7 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  <script type="text/javascript" src="https://www.affiliatly.com/easy_affiliate.js"></script>
-<script type="text/javascript">markPurchase('AF-1011496', order, price);</script>
+  
 </head>
 <body>
 
@@ -71,7 +70,39 @@
   <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  
+  <script src="https://static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+<script type="text/javascript">
+  function getQueryParams() {
+    var assoc  = {};
+    var decode = function (s) { return decodeURIComponent( s.replace(/\+/g, " ")); };
+    var queryString = location.search.substring(1);
+    var keyValues = queryString.split('&');
+
+    for(var i in keyValues) {
+      var key = keyValues[i].toString().split('=');
+      if (key.length > 1) {
+        assoc[decode(key[0])] = decode(key[1]);
+      }
+    }
+
+    return assoc;
+  };
+
+  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){
+  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');
+
+  var params = getQueryParams();
+
+  tap('create', '6732-432c14');
+
+  if (params.st == 'Completed') {
+    var amt = params.amt || 1;
+    var tx = params.tx || null;
+    tap('conversion', tx,  amt);
+  } else {
+    tap('detect');
+  }
+</script>
   <input name="animation" type="hidden">
    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a></div>
   </body>
