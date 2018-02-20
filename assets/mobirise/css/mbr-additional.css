@@ -568,6 +568,12 @@ a:hover {
 #pricing-table2-7 .heading-title {
   font-size: 48px;
 }
+#custom-html-1a {
+  /* Type valid CSS here */
+}
+#custom-html-1a .my-image {
+  width: 100%;
+}
 #content4-r P {
   font-size: 13px;
 }

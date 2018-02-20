@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 45,
+    "uniqCompNum": 47,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png"
   },
@@ -644,6 +644,23 @@
           ],
           "_name": "pricing-table2",
           "_anchor": "pricing-table2-7"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}\n{JS_CODE_1}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1a",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>",
+            "<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
+          ]
         },
         {
           "_params": {
