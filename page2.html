@@ -67,7 +67,7 @@
 
                     <form action="https://mobirise.com/" method="post" data-form-title="Contact Us!&amp;nbsp;">
 
-                        <input type="hidden" value="R1PXHW4xM76o++Jahe8SPlYuzkmEu6qTg2ju4PZfbA82mB0uvcX4PBcttmGXc0acjD16sWlSTHdo7O9hAfp3MFqlqI/fa0FQLHj+avek8uqo/wc704Cw15s3yEC7gDVh" data-form-email="true">
+                        <input type="hidden" value="IUywTorxczUcyArToxOfkU6+EarEIcxAep/G4BMCGapHXpuokLfrou15n5zFM/+XqLpkNQPhJtU1nB80QwHo7g2j/88fcxLjzDPVMWafqHI/8nuWd/mtki4yrLE0r9pa" data-form-email="true">
 
                         <div class="col-xs-12 col-md-8 col-md-offset-2 form-wrap">
 
@@ -131,7 +131,39 @@
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
-  
+  <script src="https://static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+<script type="text/javascript">
+  function getQueryParams() {
+    var assoc  = {};
+    var decode = function (s) { return decodeURIComponent( s.replace(/\+/g, " ")); };
+    var queryString = location.search.substring(1);
+    var keyValues = queryString.split('&');
+
+    for(var i in keyValues) {
+      var key = keyValues[i].toString().split('=');
+      if (key.length > 1) {
+        assoc[decode(key[0])] = decode(key[1]);
+      }
+    }
+
+    return assoc;
+  };
+
+  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){
+  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');
+
+  var params = getQueryParams();
+
+  tap('create', '6732-432c14');
+
+  if (params.st == 'Completed') {
+    var amt = params.amt || 1;
+    var tx = params.tx || null;
+    tap('conversion', tx,  amt);
+  } else {
+    tap('detect');
+  }
+</script>
   <input name="animation" type="hidden">
    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a></div>
   </body>

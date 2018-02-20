@@ -786,7 +786,8 @@
     "page1.html": {
       "settings": {
         "title": "Sign Up",
-        "order": 4
+        "order": 4,
+        "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
         {
@@ -838,7 +839,8 @@
     "page2.html": {
       "settings": {
         "title": "Contact Us",
-        "order": 3
+        "order": 3,
+        "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
         {
@@ -941,7 +943,8 @@
     "page3.html": {
       "settings": {
         "title": "Updates",
-        "order": 2
+        "order": 2,
+        "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
         {
@@ -1055,7 +1058,8 @@
     "page4.html": {
       "settings": {
         "title": "Reseller",
-        "order": 1
+        "order": 1,
+        "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
         {
