@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 47,
+    "uniqCompNum": 48,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png"
   },
@@ -1712,6 +1712,23 @@
           ],
           "_name": "header5",
           "_anchor": "header5-18"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}\n{JS_CODE_1}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1b",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"//static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>",
+            "<script type=\"text/javascript\">\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  tap('create', '6732-432c14');\n  tap('conversion');\n</script>"
+          ]
         }
       ]
     }
