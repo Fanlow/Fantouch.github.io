@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "page6.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -635,9 +635,9 @@
           "text47": "Loipsa. consectetur.",
           "text48": "Lorensectetur, omnis.",
           "text49": "Lorem ipsa, nobis.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" class=\"btn btn-lg btn-primary-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" class=\"btn btn-lg btn-black-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" class=\"btn btn-lg btn-warning-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"page6.html#custom-html-1d\" class=\"btn btn-lg btn-primary-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"page6.html#custom-html-1d\" class=\"btn btn-lg btn-black-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"page6.html#custom-html-1d\" class=\"btn btn-lg btn-warning-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\">Buy now!</a>",
           "_tags": [
             "Theme"
@@ -730,7 +730,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; Buy Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page3.html#form3-k\" data-toolbar=\"-mbrBtnMove\">Updates</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page6.html#custom-html-1d\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; Buy Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page3.html#form3-k\" data-toolbar=\"-mbrBtnMove\">Updates</a>",
           "_tags": [
             "Theme"
           ],
