@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "page5.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 48,
+    "uniqCompNum": 50,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png"
   },
@@ -783,63 +783,10 @@
         }
       ]
     },
-    "page1.html": {
-      "settings": {
-        "title": "Sign Up",
-        "order": 4,
-        "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
-      },
-      "components": [
-        {
-          "_styles": {
-            "p": {
-              "color": "#000"
-            },
-            "P": {
-              "font-size": "12px"
-            }
-          },
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "<a href=\"page4.html#header5-u\">FanTouch</a> is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer4",
-          "_anchor": "footer4-e"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "{JS_CODE_0}",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-f",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/80395840384160\"></script>"
-          ]
-        }
-      ]
-    },
     "page2.html": {
       "settings": {
         "title": "Contact Us",
-        "order": 3,
+        "order": 4,
         "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
@@ -943,7 +890,7 @@
     "page3.html": {
       "settings": {
         "title": "Updates",
-        "order": 2,
+        "order": 3,
         "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
@@ -1058,7 +1005,7 @@
     "page4.html": {
       "settings": {
         "title": "Reseller",
-        "order": 1,
+        "order": 2,
         "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
@@ -1728,6 +1675,59 @@
           "_JSplaceholders": [
             "<script src=\"//static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>",
             "<script type=\"text/javascript\">\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  tap('create', '6732-432c14');\n  tap('conversion');\n</script>"
+          ]
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "Sign up&nbsp;",
+        "order": 1,
+        "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
+      },
+      "components": [
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            },
+            "P": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<a href=\"page4.html#header5-u\">FanTouch</a> is a division of Fanlow LLC Copyright (c) 2018.  <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-1c"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1d",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/80043625684154\"></script>"
           ]
         }
       ]

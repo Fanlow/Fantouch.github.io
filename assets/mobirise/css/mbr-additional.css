@@ -592,18 +592,6 @@ a:hover {
 #custom-html-s .my-image {
   width: 100%;
 }
-#footer4-e p {
-  color: #000;
-}
-#footer4-e P {
-  font-size: 12px;
-}
-#custom-html-f {
-  /* Type valid CSS here */
-}
-#custom-html-f .my-image {
-  width: 100%;
-}
 #footer4-g p {
   color: #000;
 }
@@ -732,5 +720,17 @@ a:hover {
   /* Type valid CSS here */
 }
 #custom-html-1b .my-image {
+  width: 100%;
+}
+#footer4-1c p {
+  color: #000;
+}
+#footer4-1c P {
+  font-size: 12px;
+}
+#custom-html-1d {
+  /* Type valid CSS here */
+}
+#custom-html-1d .my-image {
   width: 100%;
 }

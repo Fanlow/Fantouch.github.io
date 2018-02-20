@@ -3,9 +3,6 @@
 		<loc>https://fantouch.biz/index.html</loc>
 	</url>
 	<url>
-		<loc>https://fantouch.biz/page1.html</loc>
-	</url>
-	<url>
 		<loc>https://fantouch.biz/page2.html</loc>
 	</url>
 	<url>
@@ -16,5 +13,8 @@
 	</url>
 	<url>
 		<loc>https://fantouch.biz/page5.html</loc>
+	</url>
+	<url>
+		<loc>https://fantouch.biz/page6.html</loc>
 	</url>
 </urlset>
