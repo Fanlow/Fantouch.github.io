@@ -568,6 +568,10 @@ a:hover {
 #pricing-table2-7 .heading-title {
   font-size: 48px;
 }
+#pricing-table2-7 .plan-text P {
+  text-align: center;
+  font-size: 20px;
+}
 #custom-html-1a {
   /* Type valid CSS here */
 }

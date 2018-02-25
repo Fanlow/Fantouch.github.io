@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 50,
+    "uniqCompNum": 52,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png"
   },
@@ -560,6 +560,10 @@
             },
             ".heading-title": {
               "font-size": "48px"
+            },
+            ".plan-text P": {
+              "text-align": "center",
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -568,7 +572,7 @@
             "firstType": "default",
             "secondType": "favorite",
             "thirdType": "default",
-            "fourthType": "hidden",
+            "fourthType": "default",
             "defaultColor": "#6ca4cf",
             "favoriteColor": "#62cab1",
             "rows": "5",
@@ -595,55 +599,56 @@
           "title3": "Premium",
           "title4": "Ultimate",
           "currency": "$",
-          "text111": "75",
+          "text111": "50",
           "text112": "<br>per Month",
           "text12": "1 Beacon",
           "text13": "2 Message Updates",
-          "text14": "Digital Business Card",
-          "text15": "---",
+          "text14": "No Website",
+          "text15": "Digital Business Card",
           "text16": "$25 Activation Fee",
           "text17": "$10 Shipping Fee",
           "text18": "Lorensectetur, omnis.",
           "text19": "Lorem ipsa, nobis.",
-          "text211": "98",
+          "text211": "80",
           "text212": "<br>per Month",
           "text22": "1 Beacon",
           "text23": "6 Message Updates",
-          "text24": "<a href=\"http://fanlow.com/fantouchsamplesite/\">*Business Website</a><br> ",
+          "text24": "<a href=\"http://deliveriesondemand.biz/\">1 Page Website</a><br> ",
           "text25": "Digital Business Card",
           "text26": "$25 Activation Fee",
           "text27": "$10 Shipping Fee",
           "text28": "Lorensectetur, omnis.",
           "text29": "Lorem ipsa, nobis.",
-          "text311": "149",
+          "text311": "110",
           "text312": "<br>per Month",
-          "text32": "2 Beacons",
-          "text33": "Unlimited Message Updates",
-          "text34": "<a href=\"http://fanlow.com/fantouchsamplesite/\">*Business Website</a><br> ",
+          "text32": "1 Beacons",
+          "text33": "Unlimited Updates",
+          "text34": "<a href=\"http://injinstallations.com/\">5 Page&nbsp;Website</a><br> ",
           "text35": "Digital Business Card",
           "text36": "$25 Activation Fee",
           "text37": "$10 Shipping Fee",
           "text38": "Lorensectetur, omnis.",
           "text39": "Lorem ipsa, nobis.",
-          "text411": "198",
+          "text411": "150",
           "text412": "<br>per Month",
-          "text42": "5 Beacons",
+          "text42": "2 Beacons",
           "text43": "Unlimited Updates",
-          "text44": "*Free Website ",
-          "text45": "Reports",
-          "text46": "Nesciunt! ipsum dolor.",
+          "text44": "<a href=\"http://fanlow.com/fantouchsamplesite/\">E-Commerce|10 Items</a> ",
+          "text45": "Digital Business Cards",
+          "text46": "Digital Business Card",
           "text47": "Loipsa. consectetur.",
           "text48": "Lorensectetur, omnis.",
           "text49": "Lorem ipsa, nobis.",
           "button1": "<a data-app-btn=\"true\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" class=\"btn btn-lg btn-primary-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" class=\"btn btn-lg btn-black-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" class=\"btn btn-lg btn-warning-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\">Buy now!</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "pricing-table2",
-          "_anchor": "pricing-table2-7"
+          "_anchor": "pricing-table2-7",
+          "tex47": "$10 Shipping Fee"
         },
         {
           "_customTemplate": true,
@@ -730,7 +735,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; Buy Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"page3.html#form3-k\" data-toolbar=\"-mbrBtnMove\">Updates</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://form.jotform.com/fanlow/fantouch-registration-form-\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; Buy Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page3.html#form3-k\" data-toolbar=\"-mbrBtnMove\">Updates</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://form.jotform.com/fanlow/order-beacons\" data-toolbar=\"-mbrBtnMove\">Add Beacons</a>",
           "_tags": [
             "Theme"
           ],
@@ -786,7 +791,7 @@
     "page2.html": {
       "settings": {
         "title": "Contact Us",
-        "order": 4,
+        "order": 5,
         "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
@@ -890,7 +895,7 @@
     "page3.html": {
       "settings": {
         "title": "Updates",
-        "order": 3,
+        "order": 4,
         "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
@@ -1005,7 +1010,7 @@
     "page4.html": {
       "settings": {
         "title": "Reseller",
-        "order": 2,
+        "order": 3,
         "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
@@ -1588,7 +1593,7 @@
     "page5.html": {
       "settings": {
         "title": "Thank You",
-        "order": 5,
+        "order": 6,
         "header_custom": "",
         "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
@@ -1682,7 +1687,7 @@
     "page6.html": {
       "settings": {
         "title": "Sign up&nbsp;",
-        "order": 1,
+        "order": 2,
         "footer_custom": "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\n<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
       },
       "components": [
