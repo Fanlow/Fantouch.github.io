@@ -673,7 +673,7 @@
             "paddingBottom": "0",
             "bgColor": "#ffffff"
           },
-          "text": "<p><b>Please note:</b>&nbsp; &nbsp;There is a one time activation and shipping fee of $35.  By clicking 'Buy Now' you are agreeing to the FanTouch Terms of Service.&nbsp;</p>",
+          "text": "<p><b>Please note:</b>&nbsp; &nbsp;There is a one time activation and shipping fee of $35.  By clicking 'Buy Now' you are agreeing to the FanTouch <a href=\"https://drive.google.com/open?id=1i4s_T8TPMhWxuHAZfQjua2t4wluDdl3B\">Terms of Service</a>.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
