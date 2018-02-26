@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "index.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -1434,7 +1434,7 @@
           "_params": {
             "showTitle": true,
             "showSearch": false,
-            "rowСount": "3",
+            "rowСount": "4",
             "colCount": 4,
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -1457,7 +1457,7 @@
           "info2": "entries",
           "info3": "(filtered from",
           "info4": "total entries)",
-          "table": "<thead><tr><th>FanTouch Package</th><th>Package Cost</th><th>Monthly Commissions&nbsp;</th><th>Commission %</th></tr></thead><tbody><tr><td><b>Starter&nbsp;</b></td><td>$75</td><td>$25</td><td>33%</td></tr><tr><td><b>Business</b>&nbsp;</td><td>$98</td><td>$30</td><td>31%</td></tr><tr><td><b>Premium</b>&nbsp;</td><td>$149</td><td>$50</td><td>34%</td></tr></tbody>",
+          "table": "<thead><tr><th>FanTouch Package</th><th>Package Cost</th><th>Monthly Commissions&nbsp;</th><th>Commission %</th></tr></thead><tbody><tr><td><b>Starter&nbsp;</b></td><td>$50</td><td>$10</td><td>20%</td></tr><tr><td><b>Business</b>&nbsp;</td><td>$80</td><td>$20</td><td>25%</td></tr><tr><td><b>Premium</b>&nbsp;</td><td>$110</td><td>$35</td><td>32%</td></tr><tr><td><b>Ultimate</b>&nbsp;</td><td>$150</td><td>$50</td><td>34%</td></tr></tbody>",
           "_tags": [
             "Theme"
           ],
@@ -1514,7 +1514,7 @@
           },
           "title": "Reseller Agreement",
           "text": "Ready to become a FanTouch Reseller? Review the reseller agreement and provide your information below. Be sure to check the box to agree to the reseller terms. Once complete, a FanTouch Team member will contact you to get started! &nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"assets/files/Fanlow%20Reseller%20Agreement.pdf\" data-toolbar=\"-mbrBtnMove\">Review Reseller Agreement</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"assets/files/Fanlow%20Reseller%20Agreement%201.1.pdf\" data-toolbar=\"-mbrBtnMove\">Review Reseller Agreement</a>",
           "_tags": [
             "Theme"
           ],
@@ -1576,7 +1576,7 @@
             }
           },
           "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Submit</a>",
-          "checkbox": "I agree to the <a href=\"assets/files/Fanlow Reseller Agreement.pdf\">terms</a>",
+          "checkbox": "I agree to the <a href=\"assets/files/Fanlow%20Reseller%20Agreement%201.1.pdf\">terms</a>",
           "_tags": [
             "Theme"
           ],
