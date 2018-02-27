@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FanTouch",
-    "currentPage": "page4.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -709,7 +709,7 @@
           "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseOneaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>What is FanTouch?</a>",
           "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseTwoaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">What is a beacon?&nbsp;</a>",
           "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseThreeaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Can I move the beacon?</a>",
-          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFouraccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Will people need an app or have to opt-in to receive notifications.?&nbsp;</a>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFouraccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Will people need an app or have to opt-in to receive notifications?&nbsp;</a>",
           "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFiveaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseFive\">How long does the beacon last?&nbsp;</a>",
           "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseSixaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseSix\">What if I lose my beacon?&nbsp;</a>",
           "text1": "<p>FanTouch is a division of Fanlow LLC specializing in digital marketing solutions for small business owners. FanTouch offers beacon technology management accompanied with dynamic sale funnels designed to drive traffic to your website, social media page and more.&nbsp;</p>",
