@@ -527,6 +527,13 @@ a:hover {
 #header5-m .heading-title {
   font-size: 60px;
 }
+#content3-1g .mbr-section-title,
+#content3-1g .mbr-section-subtitle {
+  text-align: center;
+}
+#content3-1g H1 {
+  font-size: 48px;
+}
 #features16-1 .mbr-iconfont {
   background: #5aac98;
   border-color: #5aac98;
