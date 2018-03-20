@@ -33,7 +33,7 @@
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
     "uniqCompNum": 52,
-    "versionPublish": "4.6.5",
+    "versionPublish": "4.6.6",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -67,7 +67,7 @@
             "showButtons": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/custom-custom-size-womanwithcellphone-2000x1010.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/shutterstock-753197491-2000x802.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "containerColor1": "#084a6e",
