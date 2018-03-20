@@ -32,7 +32,7 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 53,
+    "uniqCompNum": 52,
     "versionPublish": "4.6.6",
     "screenshot": "screenshot.png"
   },
@@ -88,29 +88,6 @@
           ],
           "_name": "header5",
           "_anchor": "header5-m"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H1": {
-              "font-size": "48px"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 3,
-            "paddingBottom": "0",
-            "bgColor": "#fff"
-          },
-          "title": "Mobile Marketing Has Never Been Easier!",
-          "meta": "By <b>John Smith</b> posted July 20, 2016",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content3",
-          "_anchor": "content3-1g"
         },
         {
           "_params": {
