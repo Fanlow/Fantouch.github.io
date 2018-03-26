@@ -34,7 +34,9 @@
     "versionFirst": "4.5.4",
     "uniqCompNum": 55,
     "versionPublish": "4.6.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/mcdra/Documents/Github/fanlow.github.io/fantouch.github.io"
   },
   "pages": {
     "index.html": {
