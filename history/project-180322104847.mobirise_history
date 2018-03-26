@@ -32,9 +32,11 @@
     "cookiesAlert": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 55,
+    "uniqCompNum": 53,
     "versionPublish": "4.6.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/mcdra/Documents/Github/fanlow.github.io/fantouch.github.io"
   },
   "pages": {
     "index.html": {
@@ -674,6 +676,23 @@
           "tex47": "$10 Shipping Fee"
         },
         {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}\n{JS_CODE_1}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1a",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>",
+            "<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
+          ]
+        },
+        {
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
@@ -690,115 +709,6 @@
               "font-size": "13px"
             }
           }
-        },
-        {
-          "_styles": {
-            ".plan-wrap.default .plan-title": {
-              "background": "#dbae54"
-            },
-            ".plan-wrap.favorite .plan-title": {
-              "background": "#62cab1"
-            }
-          },
-          "_params": {
-            "showTitle": false,
-            "showSubtitle": false,
-            "firstType": "default",
-            "secondType": "hidden",
-            "thirdType": "hidden",
-            "fourthType": "hidden",
-            "defaultColor": "#dbae54",
-            "favoriteColor": "#62cab1",
-            "rows": "6",
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "showButtons": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Pricing table",
-          "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla maxime aspernatur inventore, magnam expedita sequi cum, eius debitis nihil. Aspernatur, incidunt distinctio odio sint, quos non magni neque vel, debitis tenetur deserunt ea cum harum molestias vitae. Veritatis praesentium placeat soluta impedit, distinctio aliquid, officiis labore, facilis eius quia, repudiandae!",
-          "title1": "Deluxe",
-          "title2": "Business",
-          "title3": "Premium",
-          "title4": "Ultimate",
-          "currency": "$",
-          "text111": "<span class=\"price\">325</span>",
-          "text112": "<br>per Month",
-          "text12": "2 Beacons",
-          "text13": "Unlimited Updates",
-          "text14": "Digital Business Card",
-          "text15": "<a href=\"http://injinstallations.com/\">6&nbsp;Page Website</a>",
-          "text16": "Social Media Management | 4 Post Per Week",
-          "text17": "Loipsa. consectetur.",
-          "text18": "Lorensectetur, omnis.",
-          "text19": "Lorem ipsa, nobis.",
-          "text211": "<span class=\"price\">29</span>",
-          "text212": "<br>per Month",
-          "text22": "16GB Storage",
-          "text23": "10 Users",
-          "text24": "15 GB bandwidth",
-          "text25": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "text26": "Nesciunt! ipsum dolor.",
-          "text27": "Loipsa. consectetur.",
-          "text28": "Lorensectetur, omnis.",
-          "text29": "Lorem ipsa, nobis.",
-          "text311": "<span class=\"price\">39</span>",
-          "text312": "<br>per Month",
-          "text32": "32GB Storage",
-          "text33": "Unlimited Users",
-          "text34": "15 GB bandwidth",
-          "text35": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "text36": "Nesciunt! ipsum dolor.",
-          "text37": "Loipsa. consectetur.",
-          "text38": "Lorensectetur, omnis.",
-          "text39": "Lorem ipsa, nobis.",
-          "text411": "<span class=\"price\">49</span>",
-          "text412": "<br>per Month",
-          "text42": "8GB Storage",
-          "text43": "4 Users",
-          "text44": "15 GB bandwidth",
-          "text45": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "text46": "Nesciunt! ipsum dolor.",
-          "text47": "Loipsa. consectetur.",
-          "text48": "Lorensectetur, omnis.",
-          "text49": "Lorem ipsa, nobis.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">Buy now!</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-black-outline\">Buy now!</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-warning-outline\">Buy now!</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\">Buy now!</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "pricing-table2",
-          "_anchor": "pricing-table2-1i"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "{JS_CODE_0}\n{JS_CODE_1}",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-1a",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"https://static.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>",
-            "<script type=\"text/javascript\">\n  function getQueryParams() {\n    var assoc  = {};\n    var decode = function (s) { return decodeURIComponent( s.replace(/\\+/g, \" \")); };\n    var queryString = location.search.substring(1);\n    var keyValues = queryString.split('&');\n\n    for(var i in keyValues) {\n      var key = keyValues[i].toString().split('=');\n      if (key.length > 1) {\n        assoc[decode(key[0])] = decode(key[1]);\n      }\n    }\n\n    return assoc;\n  };\n\n  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){\n  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\n\n  var params = getQueryParams();\n\n  tap('create', '6732-432c14');\n\n  if (params.st == 'Completed') {\n    var amt = params.amt || 1;\n    var tx = params.tx || null;\n    tap('conversion', tx,  amt);\n  } else {\n    tap('detect');\n  }\n</script>"
-          ]
         },
         {
           "_params": {
